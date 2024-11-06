@@ -1,0 +1,30 @@
+<svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="600" height="500" fill="#f5f5f5"/>
+
+    <!-- 左侧订阅部分 -->
+    <g transform="translate(100, 100)">
+        <text x="0" y="0" font-family="Arial, 'Microsoft YaHei'" font-size="48" fill="#2b6cb0" font-weight="bold">订阅</text>
+    </g>
+
+    <!-- 中间VS -->
+    <g transform="translate(260, 100)">
+        <text x="0" y="0" font-family="Arial" font-size="36" fill="#718096" font-style="italic">VS</text>
+    </g>
+
+    <!-- 右侧会员部分 -->
+    <g transform="translate(400, 100)">
+        <text x="0" y="0" font-family="Arial, 'Microsoft YaHei'" font-size="48" fill="#c53030" font-weight="bold">会员</text>
+    </g>
+
+    <!-- 装饰线条 -->
+    <line x1="50" y1="130" x2="550" y2="130" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- 左侧装饰图形 -->
+    <circle cx="150" cy="150" r="10" fill="#2b6cb0" opacity="0.3"/>
+    <circle cx="180" cy="150" r="10" fill="#2b6cb0" opacity="0.5"/>
+
+    <!-- 右侧装饰图形 -->
+    <circle cx="420" cy="150" r="10" fill="#c53030" opacity="0.5"/>
+    <circle cx="450" cy="150" r="10" fill="#c53030" opacity="0.3"/>
+</svg>
